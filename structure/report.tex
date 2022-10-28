@@ -1,0 +1,142 @@
+% ESTES SÃO OS PACOTES UTILIZADO NESTE TEXTO, QUALQUER ALTERAÇÃO NA ESTRUTURA DO TEXTO
+% É FEITA POR ALGUM DESSES PACOTES, TODOS TEM UMA FUNÇÃO ESPÉRICA. NÃO OS REMOVA, MAS FIQUE
+% A VONTADE PARA ADICIONAR MAIS.
+
+% ESTES SÃO OS PACOTES UTILIZADO NESTE TEXTO, QUALQUER ALTERAÇÃO NA ESTRUTURA DO TEXTO
+% É FEITA POR ALGUM DESSES PACOTES, TODOS TEM UMA FUNÇÃO ESPECIFICA. NÃO OS REMOVA, MAS FIQUE
+% A VONTADE PARA ADICIONAR MAIS.
+
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{color, ucs}
+\usepackage[table, xcdraw, dvipsnames]{xcolor}
+\usepackage{subfigure}
+\usepackage{booktabs}
+\usepackage{graphics, graphicx}
+\usepackage[intlimits]{amsmath}
+\usepackage{xfrac}
+\usepackage{amssymb}
+\usepackage{wrapfig}
+\usepackage{paralist} 
+\usepackage{pgffor}
+\usepackage{authblk}
+\usepackage[hang, small, labelfont=bf, labelsep=period, up, textfont=it, up]{caption} 
+\usepackage{indentfirst}
+\usepackage{abstract} 
+\usepackage{titlesec} 
+\usepackage{microtype} 
+\usepackage{siunitx}
+\usepackage[version=4]{mhchem}
+\usepackage{pdfpages}
+\usepackage{appendix}
+\usepackage{blindtext}
+\usepackage{bm}
+\usepackage{enumitem}
+\usepackage{mdframed}
+\usepackage{environ}
+\usepackage{mathtools}
+\usepackage[pdftex]{hyperref}
+\usepackage{lipsum} 
+% --------------------
+%     REFERENCIAS
+%\usepackage{natbib}
+\usepackage[alf, abnt-emphasize=bf]{abntex2cite}
+\usepackage{quoting}
+% --------------------
+\usepackage{tikz}
+\usepackage{url}
+\usepackage{afterpage}
+\usepackage{fancybox}
+\usepackage{mathptmx}
+%\usepackage{lmodern}
+%\usepackage{times}
+\usepackage{setspace}
+\usepackage{multirow}
+
+\usepackage{textcomp}
+\usepackage{xparse}
+
+\usepackage{comment}
+\usepackage[left=3cm,top=3cm,right=2cm,bottom=2cm]{geometry}
+
+\hypersetup{
+    hidelinks
+}
+
+\input{your_data}
+
+\onehalfspacing     % espaçamento de 1.5 entre linhas.
+\setlength{\parindent}{1.3cm}
+
+\addtocontents{toc}{~\hfill\textbf{Páginas}\par} % Sumário com o nome pagina ao final.
+
+\newcommand{\uveci}{{\bm{\hat{\textnormal{\bfseries\i}}}}} % Utilize \uveci para o vetor unitário i
+\newcommand{\uvecj}{{\bm{\hat{\textnormal{\bfseries\j}}}}} % Utilize \uvecj para o vetor unitário j
+\newcommand{\uveck}{{\bm{\hat{\textnormal{\bfseries k}}}}} % Utilize \uveck para o vetor unitário k
+\DeclareRobustCommand{\uvec}[1]{{%
+  \ifcsname uvec#1\endcsname
+     \csname uvec#1\endcsname
+   \else
+    \bm{\hat{\mathbf{#1}}}%
+   \fi
+}}
+% pagina em branco com "\paginabranco""
+\newcommand\paginabranco {\null\thispagestyle{empty}\addtocounter{page}{-1}\newpage}
+ 
+% Um pequeno atalho para a imagem na capa 
+\providecommand{\imagemlogo}[2]{\begin{figure}[!h]\centering\includegraphics[scale=#1]{figuras/#2}\end{figure}}
+
+% A função \chamafig{local da sua figura aqui}{legenda aqui}{referencia aqui} chama a sua figura feita em TIZ.
+\providecommand{\chamafig}[3]{\begin{figure}[!h]\centering\input{#1}\caption{#2}\label{#3}\end{figure}}
+
+% A função \chamaimg{tamanho}{local da sua imagem aqui}{legenda aqui}{referencia aqui} chama a sua imagem.
+\providecommand{\chamaimg}[4]{\begin{figure}[!h]\centering\includegraphics[width=#1\textwidth]{#2}\caption{#3}\label{#4}\end{figure}}
+
+% Estrutura da capa
+\def \capa {\thispagestyle{empty}\begin{center}\begin{figure}[h!]\centering\includegraphics[scale=\ajuste]{figure/\imagem}\end{figure}{\MakeUppercase\cabecalho\vspace{1.65cm}}\\{\MakeUppercase\nome}\vfill{\large\MakeUppercase\titulo}\vfill{\local\\\ano}\end{center}\newpage}
+
+% Estrutura da contra capa
+\def \contracapa {\thispagestyle{empty}\begin{center}{\MakeUppercase\nome}\vfill{\large\MakeUppercase\titulo\vspace{2.5cm}}\\{\raggedleft\begin{minipage}{.6\textwidth}\nota\\ \ \\\prof.\end{minipage}\par}\vfill{\local\\\ano}\end{center}\newpage}
+
+% ajuste da imagem
+\ExplSyntaxOn
+    \prop_new:N \MainName
+    
+    \NewDocumentCommand{\definetypedocument}{mmmm}{
+      \prop_gput:Nnn \MainName{#1-first}{#2}
+      \prop_gput:Nnn \MainName{#1-second}{#3}
+      \prop_gput:Nnn \MainName{#1-third}{#4}
+    }
+    \NewDocumentCommand{\definefirst}{m}{
+      \prop_item:Nn \MainName{#1-first}
+    }
+    \NewDocumentCommand{\definesecond}{m}{
+      \prop_item:Nn \MainName{#1-second}
+    }
+    \NewDocumentCommand{\definethird}{m}{
+      \prop_item:Nn \MainName{#1-third}
+    }
+\ExplSyntaxOff
+
+% ajuste da capa
+\newcommand\acp {\vspace{\ajustecapa}}
+
+% ajuste da folha de rosto
+\newcommand\fdrt {\vspace{\ajustefolharosto}}
+
+% Estrutura da Referencias
+%\providecommand {\Areferencias}[1]{\nocite*\bibliographystyle{plainnat}\bibliography{#1}}
+
+% Estrutura do sumário
+\def \sumario {\thispagestyle{empty}\tableofcontents\newpage}
+    
+% Estrutura da lista de figuras
+\def \listafiguras {\thispagestyle{empty}\listoffigures\newpage}
+
+% Estrutura da lista de tabelas
+\def \listatabelas {\thispagestyle{empty}\listoftables\newpage}
+
+\def \documentconfig {\setlength{\parskip}{.5cm}}
+
+%\setlength{\parindent}{1.25cm}
