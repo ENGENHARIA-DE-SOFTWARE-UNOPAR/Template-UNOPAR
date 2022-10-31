@@ -22,17 +22,7 @@ Para receber anúncios de novas versões da classe, utilize a função "Watch" d
 * Um [grupo do Google][grupo-google] é disponibilizado para eventuais trocas de informações entre usuários da classe.
 
 ## Licença
-Released under the <span class="texhtml" style="font-family: 'CMU Serif', cmr10, LMRoman10-Regular, 'Nimbus Roman No9 L', 'Times New Roman', Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span> Project Public License v1.3c or later
-See http://www.latex-project.org/lppl.txt
 
-[fei-ctan]:
-[github]: https://github.com/OgliariNatan/Template-UNOPAR
-[github-releases]: https://github.com/OgliariNatan/Template-UNOPAR
-[github-wiki]:
-[grupo-google]:
-[texlive]: https://www.tug.org/texlive/
-[miktex]: http://miktex.org/
-[latex-fei]:
-[manual]:
-[template]: https://github.com/OgliariNatan/Template-UNOPA
-[template-sublist]: https://github.com/OgliariNatan/Template-UNOPA
+
+
+EM DESENVOLVIMENTO!!!!
