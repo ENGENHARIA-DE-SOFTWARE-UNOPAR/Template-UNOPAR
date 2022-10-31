@@ -5,7 +5,13 @@
 
 \section{Algoritmos}
 
-\lipsum[2-4]
+\begin{algorithm}[H]
+  \caption{Nome do algoritimo em Portugues}
+  \eLf {$n>0$}  {
+    fd}
+    {iujhjhiujh}
+
+\end{algorithm}
 
 \section{Experimentos}
 
@@ -20,20 +26,46 @@
 \lipsum[2-4]
 
 \section{Resultados e discussões}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\par Aqui vai um exemplo de código em \LaTeX2e.
 
-\lipsum[2-4]
+\begin{algorithm} [H]
+	\caption{O nome do código}\label{alg:cap}
+
+	\begin{algorithmic} [H]
+		\Require $n \geq 0$	\Comment {n será maior ou igual a zero.}
+    \Require $x \geq 10$	\Comment {x será maior que 10.}
+		\Ensure $y = x^n$   	\Comment {adicionado.}
+    \Ensure $x = n $      \Comment{Idiota.}
+		\State $y \gets 1$
+		\State $X \gets x$
+		\State $N \gets n$
+		\While{$N \neq 0$}
+			\If{$N$ is even}
+			 	   \State $X \gets X \times X$
+ 			   	\State $N \gets \frac{N}{2}$  \Comment{Aqui Vai o meu comentario}
+			\ElsIf{$N = 0$ }
+   				 \State $y \gets y \times X$
+  			 	 \State $N \gets N - 1$
+				\State $Xold \gets Xnew$
+			\EndIf
+		\EndWhile
+	\end{algorithmic}
+
+\end{algorithm}
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Seção que será apagada}
 
 Para referenciar utilize \cite{ninguem2022curioso}. Também pode ser citado integrada ao texto, de acordo com \citeonline{alguem2022nada}.
 
-Para inserir imagens adicione a figura no diretório \textit{/figure} 
+Para inserir imagens adicione a figura no diretório \textit{/figure}
 
 \begin{figure}[htbp!]
 \centering
 \includegraphics[width=1\textwidth]{figure/placeholder.jpg}
-\caption{Exemplo de uma imagem bem massa aqui} 
+\caption{Exemplo de uma imagem bem massa aqui}
 \label{fig:imagem_massa}
 \end{figure}
 
@@ -45,3 +77,7 @@ E para referenciar a figura \ref{fig:imagem_massa} utilize dessa forma.
 \section{Conclusões}
 
 \lipsum[2-4]
+
+  %$X \xLongleftarrow[\text{NATAN}]{\text{OGLIARI}} Y $ %COM TEXTO
+	% $\uparrow$ %Seta para Cima
+	%$\overleftarrow{NATAN}$
