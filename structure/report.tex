@@ -1,8 +1,4 @@
 % ESTES SÃO OS PACOTES UTILIZADO NESTE TEXTO, QUALQUER ALTERAÇÃO NA ESTRUTURA DO TEXTO
-% É FEITA POR ALGUM DESSES PACOTES, TODOS TEM UMA FUNÇÃO ESPÉRICA. NÃO OS REMOVA, MAS FIQUE
-% A VONTADE PARA ADICIONAR MAIS.
-
-% ESTES SÃO OS PACOTES UTILIZADO NESTE TEXTO, QUALQUER ALTERAÇÃO NA ESTRUTURA DO TEXTO
 % É FEITA POR ALGUM DESSES PACOTES, TODOS TEM UMA FUNÇÃO ESPECIFICA. NÃO OS REMOVA, MAS FIQUE
 % A VONTADE PARA ADICIONAR MAIS.
 
@@ -18,14 +14,14 @@
 \usepackage{xfrac}
 \usepackage{amssymb}
 \usepackage{wrapfig}
-\usepackage{paralist} 
+\usepackage{paralist}
 \usepackage{pgffor}
 \usepackage{authblk}
-\usepackage[hang, small, labelfont=bf, labelsep=period, up, textfont=it, up]{caption} 
+\usepackage[hang, small, labelfont=bf, labelsep=period, up, textfont=it, up]{caption}
 \usepackage{indentfirst}
-\usepackage{abstract} 
-\usepackage{titlesec} 
-\usepackage{microtype} 
+\usepackage{abstract}
+\usepackage{titlesec}
+\usepackage{microtype}
 \usepackage{siunitx}
 \usepackage[version=4]{mhchem}
 \usepackage{pdfpages}
@@ -37,7 +33,7 @@
 \usepackage{environ}
 \usepackage{mathtools}
 \usepackage[pdftex]{hyperref}
-\usepackage{lipsum} 
+\usepackage{lipsum}
 % --------------------
 %     REFERENCIAS
 %\usepackage{natbib}
@@ -59,6 +55,10 @@
 
 \usepackage{comment}
 \usepackage[left=3cm,top=3cm,right=2cm,bottom=2cm]{geometry}
+
+%Pacote para incluir códigos
+%\usepackage{Algoritmos}
+
 
 \hypersetup{
     hidelinks
@@ -83,8 +83,8 @@
 }}
 % pagina em branco com "\paginabranco""
 \newcommand\paginabranco {\null\thispagestyle{empty}\addtocounter{page}{-1}\newpage}
- 
-% Um pequeno atalho para a imagem na capa 
+
+% Um pequeno atalho para a imagem na capa
 \providecommand{\imagemlogo}[2]{\begin{figure}[!h]\centering\includegraphics[scale=#1]{figuras/#2}\end{figure}}
 
 % A função \chamafig{local da sua figura aqui}{legenda aqui}{referencia aqui} chama a sua figura feita em TIZ.
@@ -102,7 +102,7 @@
 % ajuste da imagem
 \ExplSyntaxOn
     \prop_new:N \MainName
-    
+
     \NewDocumentCommand{\definetypedocument}{mmmm}{
       \prop_gput:Nnn \MainName{#1-first}{#2}
       \prop_gput:Nnn \MainName{#1-second}{#3}
@@ -130,7 +130,7 @@
 
 % Estrutura do sumário
 \def \sumario {\thispagestyle{empty}\tableofcontents\newpage}
-    
+
 % Estrutura da lista de figuras
 \def \listafiguras {\thispagestyle{empty}\listoffigures\newpage}
 
