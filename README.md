@@ -6,9 +6,8 @@ Este repositório contém a classe <span class="texhtml" style="font-family: 'CM
 
 No manual, os usuários encontrarão informações detalhadas sobre a utilização da classe, seus comandos e algumas boas práticas para que o trabalho fique no formato desejado.
 
-## Instalação
-A classe está disponível através do
-Alternativamente, baixe uma [versão estável][github-releases] do repositório, extraia o arquivo compactado e coloque o arquivo `fei.cls` no mesmo diretório de seu documento `tex`.
+
+
 
 ## Utilização
 Recomenda-se iniciar um documento através de um dos dois _templates_ [[1]][template] [[2]][template-sublist], testados e prontos para compilação, e consultar eventuais comandos e ambientes no [manual][manual] em PDF.
