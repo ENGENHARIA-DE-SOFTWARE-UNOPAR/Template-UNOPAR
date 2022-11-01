@@ -6,8 +6,9 @@
 \section{Algoritmos}
 
 \begin{algorithm}[H]
-
+  \SetAlgoLined %APAGAR
   \KwData{Entrada do algoritimo}
+  \KwIn{entrada} \
    \KwResult{Resultado do codigo} \
    \While{$x = 0$}{
     Leia atual \;
@@ -16,6 +17,7 @@
      a seção atual se torna esta \;
      }{
      VOlta ao inicio da seção \;
+      \Return{EXIT}
     }
    }
    \caption{Nome do algoritimo em Portugues}
@@ -37,6 +39,7 @@
 
 \section{Resultados e discussões}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \par Aqui vai um exemplo de código em \LaTeX2e.
 
 \begin{algorithm} [H]
@@ -50,16 +53,16 @@
 		\State $y \gets 1$
 		\State $X \gets x$
 		\State $N \gets n$
-		\While{$N \neq 0$}
-			\If{$N$ is even}
-			 	   \State $X \gets X \times X$
- 			   	\State $N \gets \frac{N}{2}$  \Comment{Aqui Vai o meu comentario}
-			\ElsIf{$N = 0$ }
-   				 \State $y \gets y \times X$
-  			 	 \State $N \gets N - 1$
-				\State $Xold \gets Xnew$
-			\EndIf
-		\EndWhile
+%		\While{$N \neq 0$}
+%			\If{$N$ is even}
+%			 	   \State $X \gets X \times X$
+% 			   	\State $N \gets \frac{N}{2}$  \Comment{Aqui Vai o meu comentario}
+%			\ElsIf{$N = 0$ }
+%   				 \State $y \gets y \times X$
+%  			 	 \State $N \gets N - 1$
+%				\State $Xold \gets Xnew$
+%			\EndIf
+%		\EndWhile
 	\end{algorithmic}
 
 \end{algorithm}
