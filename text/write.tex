@@ -91,21 +91,20 @@ E para referenciar a figura \ref{fig:imagem_massa} utilize dessa forma.
 
 \begin{algorithm}
 \DontPrintSemicolon
-\KwData{$G=(X,U)$ such that $G^{tc}$ is an order.} \Comment{Testando meu comentario} \\
-\KwResult{$G’=(X,V)$ with $V\subseteq U$ such that $G’^{tc}$ is an
-interval order.}
-\Begin{
-$V \longleftarrow U$\;
+\KwData{Ponteiros randomicos.} \Comment{Testando meu comentario} \\
+\KwResult{Ordenação de vetores, e concatenação de vetores.}
+\Begin{ \Comment{Inicio do meu algoritimo.} \\
+$V \longleftarrow X$\;
 $S \longleftarrow \emptyset$\;
 \For{$x\in X$}{
-$NbSuccInS(x) \longleftarrow 0$\;
-$NbPredInMin(x) \longleftarrow 0$\;
-$NbPredNotInMin(x) \longleftarrow |ImPred(x)|$\;
+  $NbSuccInS(x) \longleftarrow 0$\;
+  $NbPredInMin(x) \longleftarrow 0$\;
+  $NbPredNotInMin(x) \longleftarrow |ImPred(x)|$\;
 }
 \For{$x \in X$}{
-\If{$NbPredInMin(x) = 0$ {\bf and} $NbPredNotInMin(x) = 0$}{
-$AppendToMin(x)$}
-}
+  \If{$ponteiroValido() = 1$ {\bf and} $filaVazia() = 1$}{
+    $SOMA4()$}
+    }
 \nl\While{$S \neq \emptyset$}{\label{InRes1}
 \nlset{REM} remove $x$ from the list of $T$ of maximal index\;\label{InResR}
 \lnl{InRes2}\While{$|S \cap ImSucc(x)| \neq |S|$}{
