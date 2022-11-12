@@ -71,7 +71,8 @@
 
 \usepackage{float}
 
-
+%Para uso de codigos externos
+\usepackage{listings}
 
 \hypersetup{
     hidelinks
@@ -153,3 +154,9 @@
 \def \documentconfig {\setlength{\parskip}{.5cm}}
 
 %\setlength{\parindent}{1.25cm}
+%\setlength{\parindent}{1.25cm}
+%\newcommand{\devc++}{\href{https://pt.wikipedia.org/wiki/Dev-C%2B%2B}{Dev-C++}}
+
+\newcommand*\lstinputpath[1]{\lstset{inputpath=#1}}
+
+\lstinputpath{test}

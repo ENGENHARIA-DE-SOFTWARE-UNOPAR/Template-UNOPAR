@@ -34,8 +34,48 @@
 \lipsum[2-4]
 
 \subsection{Métricas utilizadas}
+\par Em exemplo de adicção de códigos em C
+\begin{lstlisting}[backgroundcolor = \color{lightgray},
+                   language = C,
+                   xleftmargin = 1cm,
+                   framexleftmargin = 1em,
+                   caption={main.c}\label{ap2.1},
+                   firstnumber=1,
+                   title={algoritmo 3}]
+#include <stdio.h>
+#include <stdlib.h>
+#include<string.h>
+#include<time.h>
+#include<math.h>
+//#define debug //!< Habilita o debug
+int main(int argc, char *argv[]) {
+float n1, n2, n3, n4, media; //!< Declara as variaveis.
 
-\lipsum[2-4]
+printf("Bem vindo ao calculo da media arimetica anula do aluno \n");
+printf("\nDigite a Primeira nota \t");
+scanf("%f",&n1);
+printf("\nDigite a Segunda nota \t");
+scanf("%f",&n2);
+printf("\nDigite a Terceira nota \t");
+scanf("%f",&n3);
+printf("\nDigite a Quarta nota \t");
+scanf("%f",&n4);
+
+#ifdef debug //!<Realiza o DEBUG
+	printf("########DEBUG###########");
+	printf("\nEsta imprimindo a nota 1: %f \t",n1);
+	printf("\nEsta imprimindo a nota 2: %f \t",n2);
+	printf("\nEsta imprimindo a nota 3: %f \t",n3);
+	printf("\nEsta imprimindo a nota 4: %f \t",n4);
+#endif
+
+	media = (n1+n2+n3+n4)/4;//!< Calcula a media.
+  //!< Imprime na tela a media.
+	printf("A media aritmetica do aluno e: %f",media);
+	return 0;
+}
+
+\end{lstlisting}
 
 \section{Resultados e discussões}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -67,6 +107,14 @@
 
 \end{algorithm}
 
+\section{Sub Figuras}
+
+\begin{figure}[H] %Figuras da aula pratica 1.1
+  \center
+  \subfigure[ Algoritmo.\label{fig:pri2}]{\includegraphics[scale=0.4]{figure/placeholder.jpg}} 
+  \subfigure[Comportamento.\label{fig:seg2}]{\includegraphics[scale=.4]{figure/placeholder.jpg}}
+  \caption{Resultado da atividade prática 1.2}\label{fig:ap1_cod_vigual1}
+\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Seção que será apagada}
