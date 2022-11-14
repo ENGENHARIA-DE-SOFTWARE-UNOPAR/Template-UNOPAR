@@ -27,54 +27,41 @@
 
 \section{Código externo no main.c}
 
-\lstinputlisting[language=c]{main.c} %Busca os codigos na pasta /test
+\lstinputlisting[language=c]{main.c} %Busca os codigos na pasta /cod
 
-\subsection{Banco de dados}
+\subsection{Banco de dados} \label{Banco de dados}
+
+$\underline{{\color{Blue} }}{\color{red} \, \: \: \left ( \iint_{\widetilde{ \theta }}^{\phi } \right )}  $
 
 \lipsum[2-4]
 
-\subsection{Código em C}
-\par Um exemplo de adição de códigos em C
-\begin{lstlisting}[language = C,
-                   xleftmargin = 1cm,
-                   framexleftmargin = 1em,
-                   caption={main.c}\label{ap2.1},
-                   firstnumber=1,
-                   title={algoritmo 3}]
-#include <stdio.h>
-#include <stdlib.h>
-#include<string.h>
-#include<time.h>
-#include<math.h>
-#define debug //!< Habilita o debug
-int main(int argc, char *argv[]) {
-float n1, n2, n3, n4, media; //!< Declara as variaveis.
+\subsection{Algoritmo}
+\par Um exemplo de adição de Algoritmo. \\
 
-printf("Bem vindo ao calculo da media arimetica anula do aluno \n");
-printf("\nDigite a Primeira nota \t");
-scanf("%f",&n1);
-printf("\nDigite a Segunda nota \t");
-scanf("%f",&n2);
-printf("\nDigite a Terceira nota \t");
-scanf("%f",&n3);
-printf("\nDigite a Quarta nota \t");
-scanf("%f",&n4);
+\begin{algorithm}[H]
+  \caption{Calculo da potênciação.}
+  \label{ap1.2}
+  \Entrada{a, b, valor}
+  \Saida{Valor da potênciação}
+  Var \\
+  a, b, valor: inteiro; \Comment {Declara as variável do tipo inteiro.}
 
-#ifdef debug //!<Realiza o DEBUG
-	printf("########DEBUG###########");
-	printf("\nEsta imprimindo a nota 1: %f \t",n1);
-	printf("\nEsta imprimindo a nota 2: %f \t",n2);
-	printf("\nEsta imprimindo a nota 3: %f \t",n3);
-	printf("\nEsta imprimindo a nota 4: %f \t",n4);
-#endif
-
-	media = (n1+n2+n3+n4)/4;//!< Calcula a media.
-  //!< Imprime na tela a media.
-	printf("A media aritmetica do aluno e: %f",media);
-	return 0;
-}
-
-\end{lstlisting}
+  \Inicio{
+    escreva ("Você deverá entrar com dois valores, sendo que eles deverão ser
+    positivos e inteiros.") \Comment {Inicio do algoritmo.} \\
+    escreva ("") \\
+    escreva ("Entre com o valor de a:") \\
+    leia (a) \\
+    escreva("Entre com o valor de b:") \\
+    leia(b) \\
+    $valor \leftarrow 1$ \\
+    \While{$b \neq 0$}{
+      $valor  \leftarrow  a  \times valor$ \\
+      $b \leftarrow b-1$
+    }
+    escreval ("A Potência é:", valor)
+    }
+\end{algorithm}
 
 \section{Resultados e discussões}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -124,10 +111,12 @@ Para inserir imagens adicione a figura no diretório \textit{/figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=1\textwidth]{figure/placeholder.jpg}
+\includegraphics[width=1\textwidth]{figure/Welcome to CoCalc.pdf}
 \caption{Exemplo de uma imagem bem massa aqui}
 \label{fig:imagem_massa}
 \end{figure}
+
+\par Estou usando \href {https://cocalc.com/projects/aac1ac4d-f8cd-41a0-9c58-7293349506e6/files/?utm_source=sagemath.org&utm_medium=landingpage} {CoCal}
 
 E para referenciar a figura \ref{fig:imagem_massa} utilize dessa forma.
 

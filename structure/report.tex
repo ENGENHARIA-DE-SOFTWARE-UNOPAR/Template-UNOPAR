@@ -47,7 +47,7 @@
 \usepackage{fancybox}
 \usepackage{mathptmx}
 %\usepackage{lmodern}
-%\usepackage{times}
+\usepackage{times} % Para usar octave
 \usepackage{setspace}
 \usepackage{multirow}
 
@@ -146,12 +146,18 @@
 \def \sumario {\thispagestyle{empty}\tableofcontents\newpage}
 
 % Estrutura da lista de figuras
-\def \listafiguras {\thispagestyle{empty}\listoffigures\newpage}
+%\def \listafiguras {\thispagestyle{empty}\listoffigures\newpage}
+\def \listafiguras {\thispagestyle{empty}\listoffigures}
+
+% Estrutura da lista de algoritmos
+\def \listalgoritmo {\thispagestyle{empty}\listofalgorithms}
 
 % Estrutura da lista de tabelas
-\def \listatabelas {\thispagestyle{empty}\listoftables\newpage}
+\def \listatabelas {\thispagestyle{empty}\listoftables}
 
 \def \documentconfig {\setlength{\parskip}{.5cm}}
+
+
 
 %\setlength{\parindent}{1.25cm}
 %\setlength{\parindent}{1.25cm}
