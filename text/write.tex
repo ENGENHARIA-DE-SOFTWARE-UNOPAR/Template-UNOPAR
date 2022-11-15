@@ -150,9 +150,83 @@ $\sum_{n<k,\;\text{$n$ odd}} nE_n$
 \end{enumerate}
 
 \begin{asparaenum}
-\item Every ...
-\item The next ... \label{pl1}
+\item Anterior ...
+\item Próximo ... \label{pl1}
 \end{asparaenum}
+
+\section{Plotação de gráficos}
+
+\begin{tikzpicture}
+
+  \begin{axis}[
+    title = gráfico,
+    xlabel = $x$,
+    ylabel = {$f(x) = x^2 - x +4$}
+    ]
+    \addplot[color = red] {x^2 - x +4};
+    \addlegendentry{Teste de legenda.}
+  \end{axis}
+\end{tikzpicture}
+
+\subsection{Sub exemplo 3d}
+\begin{tikzpicture}
+\begin{axis}
+    [
+    view={60}{30},
+    ]
+\addplot3[
+    title = gráfico 3d,
+    domain=0:5*pi,
+    samples = 60,
+    samples y=0,
+]
+[color=green]({sin(deg(x))},
+{cos(deg(x))},
+{x});
+\addlegendentry{Teste de legenda.}
+\end{axis}
+\end{tikzpicture}
+
+\subsection{ Outro exemplo}
+
+\begin{tikzpicture}
+\begin{axis}[
+    title = título do gráfco,
+    axis lines = left,
+    xlabel = \(x\),
+    ylabel = {\(f(x)\)},
+]
+%define a parabula vermelha
+\addplot [
+    mark=*,
+    domain=-10:10,
+    samples=100,
+    color=red,
+]
+{x^2 - 2*x - 1};
+\addlegendentry{\(x^2 - 2x - 1\)}
+%define a parabula azul
+\addplot [
+    domain=-10:10,
+    samples=100,
+    color=blue,
+    ]
+    {x^2 + 2*x + 1};
+\addlegendentry{\(x^2 + 2x + 1\)}
+
+\end{axis}
+\end{tikzpicture}
+
+
+\subsubsection{Mais um exemplo}
+
+
+
+
+
+
+
+
 
 
 \section{Conclusões}
