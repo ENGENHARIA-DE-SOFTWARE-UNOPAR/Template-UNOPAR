@@ -16,13 +16,12 @@ Recomenda-se iniciar um documento através de um dos dois _templates_ [[1]][temp
 Para receber anúncios de novas versões da classe, utilize a função "Watch" do GitHub no [repositório][github].
 </p>
 <h4> Ajuda e Comunidade </h4><p>
-* O [manual][manual] em PDF é a fonte primária de instrução relacionada ao uso da classe e descreve todos os comandos, opções e ambientes disponíveis.
+* O [manual][manual] em PDF é a fonte primária de instrução relacionada ao uso da classe e descreve todos os comandos, opções e ambientes disponíveis. <br/>
 * A [wiki][github-wiki] no GitHub aborda dúvidas relacionadas a instalação do LaTeX, fontes didáticas para aprender a linguagem LaTeX e dicas de editores de TeX e ferramentas para facilitar a compilação de projetos grandes.
-* Um [grupo do Google][grupo-google] é disponibilizado para eventuais trocas de informações entre usuários da classe.
+
 </p>
 <h5> Softwares usuais: </h5><p>
-<a href="https://cocalc.com/software">Cocal</a>
-
-Atom (Editor Latex)
- octave
+<a href="https://cocalc.com/software">Cocal</a> <br/>
+<a href="https://atom.io/">Atom</a> <br/>
+octave
 </p>
