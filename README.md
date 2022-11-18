@@ -21,7 +21,8 @@ Para receber anúncios de novas versões da classe, utilize a função "Watch" d
 * Um [grupo do Google][grupo-google] é disponibilizado para eventuais trocas de informações entre usuários da classe.
 </p>
 <h5> Softwares usuais: </h5><p>
- https://cocalc.com/software
+<a href="https://cocalc.com/software">Cocal</a>
+
 Atom (Editor Latex)
  octave
 </p>
