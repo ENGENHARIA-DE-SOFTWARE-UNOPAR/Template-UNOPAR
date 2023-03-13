@@ -20,3 +20,8 @@
 *.log
 *.out
 *.toc
+*.loa
+*.lof
+*.lot
+*.gnuplot
+*.gz
