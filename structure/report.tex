@@ -106,6 +106,14 @@
 % pagina em branco com "\paginabranco""
 \newcommand\paginabranco {\null\thispagestyle{empty}\addtocounter{page}{-1}\newpage}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Comando para referencia figuras 
+\newcommand{\fontfig}[1]
+{
+  \caption*{Fonte: #1 }
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 % Um pequeno atalho para a imagem na capa
 \providecommand{\imagemlogo}[2]{\begin{figure}[!h]\centering\includegraphics[scale=#1]{figuras/#2}\end{figure}}
 
