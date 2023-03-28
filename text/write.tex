@@ -250,6 +250,23 @@ $\sum_{n<k,\;\text{$n$ odd}} nE_n$
 \subsubsection{Mais um exemplo}
 
 
+
+
+\begin{figure}
+  \caption{Gráfico com arquivo externo}
+  \centering
+  \begin{tikzpicture}
+    \begin{axis}[title = Título do gráfco, xlabel = {$x$}, ylabel = {$y$}, label = grafico]
+      \addplot [red] table [x=a, y=c, col sep=comma] {cod/data.csv};
+      \addplot [blue] table [x=a, y=b, col sep=comma] {cod/file.csv};
+      \addlegendentry{{$x \exp(-x^2-y^2)$}}
+    \end{axis}
+  \end{tikzpicture}
+  \caption*{Fonte: o autor}
+\end{figure}
+
+
+
 \section{Conclusões}
 
 \begin{algorithm}
