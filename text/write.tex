@@ -1,12 +1,24 @@
 
 \section{Introdução}
 
-\begin{description}
-  \item [Banana] \lipsum[1]
-  \item [Maça] \lipsum[1]
-\end{description}
 
-\lipsum[2-4]
+
+
+\noindent \begin{minipage}[c]{0.6\textwidth}
+  \vspace {1cm}
+  \begin{description}
+    \item [Banana] Exemplo de mini página com figura e seus respectivos rotulos, para que sejam referenciados ao decorrer do texto.
+    \item [Maça] Veja que a Figura \ref{fig:place}, está reservando um espaço para adição de figuras, e o mesmo já esta referenciando seu autor e sua nomeclatura com o indice automatico.
+  \end{description}
+
+\end{minipage}
+\begin{minipage}[c]{0.4\textwidth}
+  \captionof{figure}{Placeholder}
+  \includegraphics[width=\textwidth]{figure/placeholder.jpg}
+  	\label{fig:place}
+    \captionof*{figure}{Fonte: \citeonline{linux:2023}}
+\end{minipage}
+
 
 \section{Desenvolvimento}
 
@@ -166,7 +178,7 @@ $\sum_{n<k,\;\text{$n$ odd}} nE_n$
 \end{enumerate}
 
 \begin{asparaenum}
-\item Anterior ...
+\item Anterior ... \cite{ninguem2022curioso}
 \item Próximo ... \label{pl1}
 \end{asparaenum}
 
@@ -175,12 +187,13 @@ $\sum_{n<k,\;\text{$n$ odd}} nE_n$
 \begin{tikzpicture}
 
   \begin{axis}[
-    title = gráfico,
+    title = Gráfico,
     xlabel = $x$,
     ylabel = {$f(x) = x^2 - x +4$}
     ]
     \addplot[color = red] {x^2 - x +4};
     \addlegendentry{Teste de legenda.}
+
   \end{axis}
 \end{tikzpicture}
 
@@ -235,14 +248,6 @@ $\sum_{n<k,\;\text{$n$ odd}} nE_n$
 
 
 \subsubsection{Mais um exemplo}
-
-
-
-
-
-
-
-
 
 
 \section{Conclusões}

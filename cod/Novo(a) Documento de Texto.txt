@@ -1,0 +1,85 @@
+
+\begin{figure}[t!p]
+\caption{Value}
+\centering
+\begin{subfigure}{0.7\textwidth}
+\centering
+\resizebox{\linewidth}{!}{
+\begin{tikzpicture}[scale=0.5]
+\begin{axis}[\axisoptsa]
+\addplot table [y=0 , x=row]{cod/file.csv};
+\addlegendentry{Ciao}
+\addplot table [y=1, x=row ]{cod/file.csv};
+\addlegendentry{Bau}
+\end{axis}
+\end{tikzpicture}
+}
+\caption{Tot}
+\label{tot}
+\end{subfigure}
+\\
+\par\bigskip
+\begin{subfigure}{.3\textwidth}
+\centering
+\resizebox{\linewidth}{!}{
+\begin{tikzpicture}
+\begin{axis}[\axisoptsa]
+\addplot table [y=0 , x=Row Labels]{cod/file1.csv};
+\addlegendentry{Ciao}
+\addplot table [y=1, x=Row Labels]{cod/file1.csv};
+\addlegendentry{Bau}
+\end{axis}
+\end{tikzpicture}
+}
+\caption{Micro}
+\label{Micro}
+\end{subfigure}%
+\qquad\qquad
+\begin{subfigure}{.3\textwidth}
+\centering
+\resizebox{\linewidth}{!}{
+\begin{tikzpicture}
+\begin{axis}[\axisoptsa]
+\addplot table [y=0 , x=Row Labels]{cod/file2.csv};
+\addlegendentry{Ciao}
+\addplot table [y=1, x=Row Labels]{cod/file2.csv};
+\addlegendentry{Bau}
+\end{axis}
+\end{tikzpicture}
+}
+\caption{Small}
+\label{Small}
+\end{subfigure}%
+\\
+\begin{subfigure}{.3\textwidth}
+\centering
+\resizebox{\linewidth}{!}{
+\begin{tikzpicture}
+\begin{axis}[\axisoptsa]
+\addplot table [y=0 , x=Row Labels]{cod/EMR_VA_classe3.csv};
+\addlegendentry{Ciao}
+\addplot table [y=1, x=Row Labels]{cod/EMR_VA_classe3.csv};
+\addlegendentry{Bau}
+\end{axis}
+\end{tikzpicture}
+}
+\caption{Medium}
+\label{ Medium }
+\end{subfigure}%
+\qquad\qquad
+\begin{subfigure}{.3\textwidth}
+\centering
+\resizebox{\linewidth}{!}{
+\begin{tikzpicture}
+\begin{axis}[\axisoptsa]
+\addplot table [y=0 , x=Row Labels]{cod/file3.csv};
+\addlegendentry{Ciao}
+\addplot table [y=1, x=Row Labels]{cod/file3.csv};
+\addlegendentry{Bau}
+\end{axis}
+\end{tikzpicture}
+}
+\caption{Big}
+\label{Big}
+\end{subfigure}
+\end{figure}
