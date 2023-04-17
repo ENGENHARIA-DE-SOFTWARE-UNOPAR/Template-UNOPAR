@@ -3,7 +3,7 @@
 <h1>Template para relatórios de portfólio da UNOPAR </h1>
 
 
-[![Versão](https://img.shields.io/badge/Versão-1.2-brightgreen.svg)](https://www.google.com.br)\
+[![Versão](https://img.shields.io/badge/Versão-1.2-brightgreen.svg)](https://github.com/OgliariNatan/Template-UNOPAR)\
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/OgliariNatan/Template-UNOPAR/blob/main/LICENSE)
 [![Downloads](https://img.shields.io/badge/download-Relatório%20portfólio-brightgreen.svg)](https://github.com/OgliariNatan/Template-UNOPAR.git)
 
@@ -19,7 +19,7 @@ No manual, os usuários encontrarão informações detalhadas sobre a utilizaç�
 
 
 <h3> Utilização </h3> <p>
-Recomenda-se iniciar um documento através de um dos dois _templates_ [[1]][template] [[2]][template-sublist], testados e prontos para compilação, e consultar eventuais comandos e ambientes no [manual][manual] em PDF.
+Recomenda-se o uso do software https://img.shields.io/badge/-Aton-green, testados e prontos para compilação, e consultar eventuais comandos e ambientes no [manual][manual] em PDF.
 </p>
 <h3> Novas versões </h3><p>
 Para receber anúncios de novas versões da classe, utilize a função "Watch" do GitHub no [repositório][github].
