@@ -23,7 +23,7 @@ No manual, os usuários encontrarão informações detalhadas sobre a utilizaç�
 Recomenda-se o uso do software <a href="https://atom.io/">Atom</a>, os documentos disponibilizados foram testados e estão prontos para a compilação.
 </p>
 <h3> Novas versões </h3><p>
-Para receber anúncios de novas versões da classe, utilize a função "Watch" do GitHub no [repositório][github].
+Para receber anúncios de novas versões da classe, utilize a função "Watch" do GitHub no repositório.
 </p>
 <h4> Ajuda e Comunidade </h4><p>
 * O [manual][manual] em PDF é a fonte primária de instrução relacionada ao uso da classe e descreve todos os comandos, opções e ambientes disponíveis. <br/>
@@ -33,5 +33,4 @@ Para receber anúncios de novas versões da classe, utilize a função "Watch" d
 <h5> Softwares usuais: </h5><p>
 <a href="https://cocalc.com/software">Cocal</a> <br/>
 <a href="https://atom.io/">Atom</a> <br/>
-octave
 </p>
