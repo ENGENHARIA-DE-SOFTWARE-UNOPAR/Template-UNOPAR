@@ -16,8 +16,8 @@ Este repositório contém a classe <span class="texhtml" style="font-family: 'CM
 No manual, os usuários encontrarão informações detalhadas sobre a utilização da classe, seus comandos e algumas boas práticas para que o trabalho fique no formato desejado.
 
 
-[![Downloads](https://img.shields.io/badge/download-Relatório%20portfólio-brightgreen.svg)](https://github.com/OgliariNatan/Template-UNOPAR.git)
 
+[![Aton](https://img.shields.io/badge/-Aton-green)](https://atom.io/)
 <h3> Utilização </h3> <p>
 Recomenda-se o uso do software [![Aton](https://img.shields.io/badge/-Aton-green)](https://atom.io/), testados e prontos para compilação, e consultar eventuais comandos e ambientes no [manual][manual] em PDF.
 </p>
