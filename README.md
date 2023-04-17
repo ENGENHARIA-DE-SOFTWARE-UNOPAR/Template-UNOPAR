@@ -9,7 +9,7 @@ Tesseract OCR
 [![OSS-Fuzz](https://img.shields.io/badge/oss--fuzz-fuzzing-brightgreen)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=2&q=proj:tesseract-ocr)
 \
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/OgliariNatan/Template-UNOPAR/blob/main/LICENSE)
-[![Downloads](https://img.shields.io/badge/download-all%20releases-brightgreen.svg)](https://github.com/tesseract-ocr/tesseract/releases/)
+[![Downloads](https://img.shields.io/badge/download-Relatório%20portfólio-brightgreen.svg)](https://github.com/OgliariNatan/Template-UNOPAR.git)
 
 
 
