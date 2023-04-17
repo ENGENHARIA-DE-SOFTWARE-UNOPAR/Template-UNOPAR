@@ -3,8 +3,7 @@
 <h1>Template para relatórios de portfólio da UNOPAR </h1>
 
 
-[![Build status](https://img.shields.io/cirrus/github/Natan%20Ogliari/Template-UNOPAR?style=social)](https://www.google.com.br)
-[![Versão](https://img.shields.io/docker/cloud/build/Vers%C3%A3o/1.0?color=green&label=Vers%C3%A3o&logo=1.0&logoColor=gray&style=plastic)]()\
+[![Versão](https://img.shields.io/cirrus/github/Natan%20Ogliari/Template-UNOPAR?style=social)](https://www.google.com.br)\
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/OgliariNatan/Template-UNOPAR/blob/main/LICENSE)
 [![Downloads](https://img.shields.io/badge/download-Relatório%20portfólio-brightgreen.svg)](https://github.com/OgliariNatan/Template-UNOPAR.git)
 
