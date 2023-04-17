@@ -1,10 +1,10 @@
-[![Build Status](https://travis-ci.org/douglasrizzo/Classe-Latex-FEI.svg?branch=master)](https://travis-ci.org/douglasrizzo/Classe-Latex-FEI)
+[![Travis CI](https://travis-ci.org/douglasrizzo/Classe-Latex-FEI.svg?branch=master)](https://travis-ci.org/douglasrizzo/Classe-Latex-FEI)
 
 <h1>Template para relatórios de portfólio da UNOPAR </h1>
 
 
 [![Build status](https://img.shields.io/cirrus/github/Natan%20Ogliari/Template-UNOPAR?style=social)](https://www.google.com.br)
-
+[![Versão](https://img.shields.io/docker/cloud/build/Vers%C3%A3o/1.0?color=green&logoColor=gray&style=for-the-badge)]()
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/OgliariNatan/Template-UNOPAR/blob/main/LICENSE)
 [![Downloads](https://img.shields.io/badge/download-Relatório%20portfólio-brightgreen.svg)](https://github.com/OgliariNatan/Template-UNOPAR.git)
 
