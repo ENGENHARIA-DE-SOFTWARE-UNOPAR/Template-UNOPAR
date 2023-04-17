@@ -3,7 +3,7 @@
 <h1>Template para relatórios de portfólio da UNOPAR </h1>
 
 
-[![Versão](https://img.shields.io/readthedocs/Vers%C3%A3o/1.0?color=green&logoColor=gray&style=plastic)](https://www.google.com.br)\
+[![Versão](https://img.shields.io/badge/Versão-1.2-brightgreen.svg)](https://www.google.com.br)\
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/OgliariNatan/Template-UNOPAR/blob/main/LICENSE)
 [![Downloads](https://img.shields.io/badge/download-Relatório%20portfólio-brightgreen.svg)](https://github.com/OgliariNatan/Template-UNOPAR.git)
 
