@@ -162,13 +162,39 @@ Para inserir imagens adicione a figura no diretório \textit{/figure}
 
 E para referenciar a figura \ref{fig:imagem_massa} utilize dessa forma.
 
+\begin{equation}
+  a + b = c \label{1}
+  $$ $$ %usado para pular linha
+  \sqrt{x} + \sqrt{\smash[b]{y}} + \sqrt{z}
+\end{equation}
 
 
+\par Exemplo de incerção de formula \eqref{1},
 
-\par Exemplo de incerção de formula, $ \sqrt{x} + \sqrt{\smash[b]{y}} + \sqrt{z} $
+\begin{equation}
+S = \left\{
+\begin{aligned}
+  a + b     &= 4\\
+  a \cdot b &= 4
+\end{aligned}
+\right.
+$$ $$% Usado para pular linha [não recomendado]
+\sum_{n<k,\;\text{$n$ odd}} nE_n
+ \label{3}
+\end{equation}
 
+Aqui é um exemplo de rodapé. \footnote{Um exemplo de rodapé}
 
-$\sum_{n<k,\;\text{$n$ odd}} nE_n$
+\begin{equation}
+\int_{-L}^{L} sen \frac{m \pi x}{2}\,sen \frac{n \pi x}{2}\,dx =
+\left \{
+\begin{array}{cc}
+0, & m \neq n \\
+1, & m = n \\
+\end{array}
+\right.
+\end{equation}
+
 
 \section{Sub itens}
 
