@@ -7,6 +7,7 @@
 [![Aton](https://img.shields.io/badge/-Aton-green)](https://atom.io/)\
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/OgliariNatan/Template-UNOPAR/blob/main/LICENSE)
 [![Downloads](https://img.shields.io/badge/download-Relatório%20portfólio-brightgreen.svg)](https://github.com/OgliariNatan/Template-UNOPAR.git)
+<img src="https://img.shields.io/github/languages/top/OgliariNatan/Template-UNOPAR?color=violet&label=TeX&style=plastic" />
 
 
 
