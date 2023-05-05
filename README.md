@@ -1,5 +1,3 @@
-[![Travis CI](https://travis-ci.org/douglasrizzo/Classe-Latex-FEI.svg?branch=master)](https://travis-ci.org/douglasrizzo/Classe-Latex-FEI)
-
 <h1>Template para relatórios de portfólio da UNOPAR </h1>
 
 
