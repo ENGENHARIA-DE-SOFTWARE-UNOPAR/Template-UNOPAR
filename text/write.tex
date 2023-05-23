@@ -13,10 +13,11 @@
 
 \end{minipage}
 \begin{minipage}[c]{0.4\textwidth}
-  \captionof{figure}{Placeholder}
+
   \includegraphics[width=\textwidth]{figure/placeholder.jpg}
   	\label{fig:place}
-    \captionof*{figure}{Fonte: \citeonline{linux:2023}}
+    \captionof{figure}{Placeholder, \cite{linux:2023}}
+    %\captionof*{figure}{Fonte: \citeonline{linux:2023}}
 \end{minipage}
 
 
@@ -136,11 +137,9 @@ $\underline{{\color{Blue} }}{\color{red} \, \: \: \left ( \iint_{\widetilde{ \th
 
 \begin{figure}[H] %Figuras da aula pratica 1.1
   \center
-  \caption{Resultado da atividade prática 1.2}\label{fig:ap1_cod_vigual1}
   \subfigure[ Algoritmo.\label{fig:pri2}]{\includegraphics[scale=0.4]{figure/placeholder.jpg}}
   \subfigure[Comportamento.\label{fig:seg2}]{\includegraphics[scale=.4]{figure/placeholder.jpg}}
-  \fontfig{\citeonline{oliveira_SO2009}}
-
+  \caption{Resultado da atividade prática 1.2, \cite{oliveira_SO2009}}\label{fig:ap1_cod_vigual1}
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -152,9 +151,8 @@ Para inserir imagens adicione a figura no diretório \textit{/figure}
 
 \begin{figure}[H]
 \centering
-\caption{Exemplo de uma imagem bem massa aqui}
 \includegraphics[width=1\textwidth]{figure/Welcome to CoCalc.pdf}
-\caption*{Fonte: O autor}
+\caption{Exemplo de uma imagem bem massa aqui, o autor}
 \label{fig:imagem_massa}
 \end{figure}
 
@@ -279,8 +277,7 @@ Aqui é um exemplo de rodapé. \footnote{Um exemplo de rodapé}
 
 
 \begin{figure}
-  \caption{Gráfico com arquivo externo}
-  \centering
+    \centering
   \begin{tikzpicture}
     \begin{axis}[title = Título do gráfco, xlabel = {$x$}, ylabel = {$y$}, label = grafico]
       \addplot [red] table [x=a, y=c, col sep=comma] {cod/data.csv};
@@ -288,7 +285,7 @@ Aqui é um exemplo de rodapé. \footnote{Um exemplo de rodapé}
       \addlegendentry{{$x \exp(-x^2-y^2)$}}
     \end{axis}
   \end{tikzpicture}
-  \caption*{Fonte: o autor}
+  \caption{Gráfico com arquivo externo, o autor}
 \end{figure}
 
 
