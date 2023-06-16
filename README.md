@@ -26,7 +26,7 @@ Recomenda-se o uso do software <a href="https://atom.io/">Atom</a>, os documento
 Para receber anúncios de novas versões da classe, utilize a função "Watch" do GitHub no repositório.
 </p>
 <h4> Ajuda e Comunidade </h4><p>
-* A [wiki][github-wiki] no GitHub aborda dúvidas relacionadas a instalação do LaTeX, fontes didáticas para aprender a linguagem LaTeX e dicas de editores de TeX e ferramentas para facilitar a compilação de projetos grandes.
+* A [wiki][github-wiki] no GitHub aborda dúvidas relacionadas a instalação do LaTeX, fontes didáticas para aprender a linguagem LaTeX e dicas de editores de TeX e ferramentas para facilitar a compilação de projetos grandes. </br>
   * <a href="https://github.com/OgliariNatan/Template-UNOPAR/archive/refs/tags/v1.1.zip">Clique aqui para o download</a>
 
 </p>
