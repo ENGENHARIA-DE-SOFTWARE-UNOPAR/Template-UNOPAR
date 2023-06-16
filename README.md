@@ -27,6 +27,7 @@ Para receber anúncios de novas versões da classe, utilize a função "Watch" d
 </p>
 <h4> Ajuda e Comunidade </h4><p>
 * A [wiki][github-wiki] no GitHub aborda dúvidas relacionadas a instalação do LaTeX, fontes didáticas para aprender a linguagem LaTeX e dicas de editores de TeX e ferramentas para facilitar a compilação de projetos grandes.
+  * <a href="https://github.com/OgliariNatan/Template-UNOPAR/archive/refs/tags/v1.1.zip">Clique aqui para o download</a>
 
 </p>
 <h5> Softwares usuais: </h5><p>
