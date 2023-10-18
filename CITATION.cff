@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this report, please cite it as below."
+authors:
+- family-names: "Natan"
+  given-names: "Ogliari"
+  orcid: "https://orcid.org/0009-0000-2586-2481"
+
+title: "Template-UNOPAR"
+version: 1.0.0
+
+date-released: 2023-10-18
+url: "https://github.com/OgliariNatan/Template-UNOPAR"
