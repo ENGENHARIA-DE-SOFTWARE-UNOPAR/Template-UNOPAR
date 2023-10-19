@@ -9,6 +9,8 @@
 .gitattributes  export-ignore
 .gitignore      export-ignore
 .git            export-ignore
+.cff            export-ignore
+LICENSE         export-ignore
 #
 # Enable syntax highlighting for files with `.gitattributes` extensions.
 #
