@@ -15,11 +15,9 @@
 \begin{minipage}[c]{0.4\textwidth}
   \captionof{figure}{Placeholder.}
   \includegraphics[width=\textwidth]{figure/placeholder.jpg}
-  	\label{fig:place}
-    {\fontsize{10pt}{\baselineskip}\selectfont
-    Fonte: \cite{linux:2023}}
-
-    %\captionof*{figure}{Fonte: \citeonline{linux:2023}}
+  \label{fig:place}
+  {\fontsize{10pt}{\baselineskip}\selectfont
+    Fonte: \citeonline{linux:2023}}
 \end{minipage}
 
 
@@ -41,7 +39,8 @@
     }
    }
    \caption{Nome do algoritimo em Portugues}
-
+   {\fontsize{10pt}{\baselineskip}\selectfont
+   Fonte: O autor (2022)}
 
 \end{algorithm}
 \subsection{Método}
@@ -69,7 +68,7 @@ QrCode com 5cm:
 
 \section{Código externo no main.c}
 
-\lstinputlisting[language=c]{main.c} %Busca os codigos na pasta /cod
+\lstinputlisting[language=c, caption={código externo}, label={cod:externo}]{main.c} %Busca os codigos na pasta /cod
 
 \subsection{Banco de dados} \label{Banco de dados}
 
