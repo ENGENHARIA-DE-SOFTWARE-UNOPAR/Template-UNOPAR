@@ -36,3 +36,14 @@ Para receber anúncios de novas versões da classe, utilize a função "Watch" d
 
  <a href="https://buy.stripe.com/test_14k5lPbFNfLx2hGdQQ">coffe</a> <br/>
 </p>
+
+
+<script async
+  src="https://js.stripe.com/v3/buy-button.js">
+</script>
+
+<stripe-buy-button
+  buy-button-id="buy_btn_1O6vA7KxrlbLGoL8H8BbzVIm"
+  publishable-key="pk_test_51NkoQAKxrlbLGoL8sfpw5JngEp4NxXdzk81KMMPBWFTSSpr3c9JVcIBHHztNZplfDr6Hf7QJNsN3W4z0cDejgHDB00Ke1uG1sx"
+>
+</stripe-buy-button>
