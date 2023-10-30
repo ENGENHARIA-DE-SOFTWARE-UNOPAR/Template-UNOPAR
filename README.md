@@ -36,9 +36,3 @@ Para receber anúncios de novas versões da classe, utilize a função "Watch" d
 
  <a href="https://buy.stripe.com/test_14k5lPbFNfLx2hGdQQ">coffe</a> <br/>
 </p>
-
-
-<script async
-  src="https://buy.stripe.com/test_fZe29D39hfLx1dC145">
-</script>
-
