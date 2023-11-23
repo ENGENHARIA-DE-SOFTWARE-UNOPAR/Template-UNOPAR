@@ -23,7 +23,9 @@ No manual, os usuários encontrarão informações detalhadas sobre a utilizaç�
 Recomenda-se o uso do software <a href="https://atom.io/">Aton</a>, os documentos disponibilizados foram testados e estão prontos para a compilação. <br>
 
 * Para início compile o ```main.tex```, e posterior poderá compilar diretamente o ```write.tex```.
-* Caso não deseje ```\contracapa; \listafiguras; \litaalgoritmo; \listatabelas ```, comente a linha em específico com o ```%```.
+* Caso não deseje ```\contracapa; \listalgoritmo;
+\listafiguras;
+\listatabelas ```, comente a linha em específico com o ```%```.
 
 </p>
 <h3> Novas versões </h3><p>
