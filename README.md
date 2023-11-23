@@ -5,7 +5,7 @@
 [![Aton](https://img.shields.io/badge/-Aton-green)](https://atom.io/)
 <img src="https://img.shields.io/github/languages/code-size/OgliariNatan/Template-UNOPAR?color=violet&style=plastic" />\
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/OgliariNatan/Template-UNOPAR/blob/main/LICENSE)
-[![Downloads](https://img.shields.io/badge/download-Relatório%20portfólio-brightgreen.svg)](https://github.com/OgliariNatan/Template-UNOPAR.git)
+[![Downloads](https://img.shields.io/badge/download-Relatório%20portfólio-brightgreen.svg)](https://github.com/OgliariNatan/Template-UNOPAR/archive/refs/tags/v1.1.zip)
 <img src="https://img.shields.io/github/languages/top/OgliariNatan/Template-UNOPAR?color=violet&label=TeX&style=plastic" /> <img src="https://img.shields.io/badge/Feito%20com-LaTeX-1f425f.svg"/>
 
 
