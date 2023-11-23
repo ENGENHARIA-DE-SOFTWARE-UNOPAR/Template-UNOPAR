@@ -3,12 +3,12 @@
 
 [![Versão](https://img.shields.io/badge/Versão-1.2-brightgreen.svg)](https://github.com/OgliariNatan/Template-UNOPAR)
 [![Aton](https://img.shields.io/badge/-Aton-green)](https://atom.io/)
-<img src="https://img.shields.io/github/languages/code-size/OgliariNatan/Template-UNOPAR?color=violet&style=plastic" /> 
+<img src="https://img.shields.io/github/languages/code-size/OgliariNatan/Template-UNOPAR?color=violet&style=plastic" />
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/OgliariNatan/Template-UNOPAR/blob/main/LICENSE) <br>
 [![Downloads](https://img.shields.io/badge/download-Relatório%20portfólio-brightgreen.svg)](https://github.com/OgliariNatan/Template-UNOPAR/archive/refs/tags/v1.1.zip)
 <img src="https://img.shields.io/github/languages/top/OgliariNatan/Template-UNOPAR?color=violet&label=TeX&style=plastic" /> <img src="https://img.shields.io/badge/Feito%20com-LaTeX-1f425f.svg"/>
 
-
+\latex
 
 <h2> Classe <span class="texhtml" style="font-family: 'CMU Serif', cmr10, LMRoman10-Regular, 'Nimbus Roman No9 L', 'Times New Roman', Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span> da UNOPAR </h2>
 
