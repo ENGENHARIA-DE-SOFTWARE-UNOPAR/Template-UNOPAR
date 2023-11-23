@@ -20,7 +20,7 @@ No manual, os usuários encontrarão informações detalhadas sobre a utilizaç�
 
 
 <h3> Utilização </h3> <p>
-Recomenda-se o uso do software <a href="https://atom.io/">Atom</a>, os documentos disponibilizados foram testados e estão prontos para a compilação.
+Recomenda-se o uso do software <a href="https://atom.io/">```Aton```</a>, os documentos disponibilizados foram testados e estão prontos para a compilação.
 </p>
 <h3> Novas versões </h3><p>
 Para receber anúncios de novas versões da classe, utilize a função "Watch" do GitHub no repositório.
