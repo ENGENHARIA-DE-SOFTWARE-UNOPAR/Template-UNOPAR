@@ -1,21 +1,15 @@
-name: Compilacao do texto 
-on:
-  push:
-  schedule:
-    - cron: '0 0 1 * *'
+name: Compilacao do texto
+on: [push]
 jobs:
   build_latex:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Set up Git repository
         uses: actions/checkout@v2
-      - name: Compile LaTeX document
-        uses: xu-cheng/latex-action@v2
-      - name: Ação LaTeX
-        uses: fudan-mse/latex-action@v0.0.1
-            
+      - name: Compile document.tex
+        uses: dante-ev/latex-action@edge
         with:
-          root_file: |
+           root_file: |
               main.tex
               text/ref.bib
               text/write.tex
