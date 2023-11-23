@@ -4,45 +4,18 @@ on:
   schedule:
     - cron: '0 0 1 * *'
 jobs:
-  main:
+  build_latex:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Git repository
-        uses: actions/checkout@v1
-      - name: Compile basic LaTeX document
-        uses: ./
+        uses: actions/checkout@v2
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v2
+      - name: Ação LaTeX
+        uses: fudan-mse/latex-action@v0.0.1
+            
         with:
-          root_file: test.tex
-          working_directory: test/
-      - name: Compile basic LaTeX document with lualatex
-        uses: ./
-        with:
-          root_file: main.tex
-          working_directory: test/
-          compiler: lualatex
-          args: -file-line-error -interaction=nonstopmode
-      - name: Compile LaTeX document with math symbols
-        uses: ./
-        with:
-          root_file: write.tex
-          working_directory: text/
-      - name: Compile LaTeX document with biblatex/biber
-        uses: ./
-        with:
-          root_file: ref.bib
-          working_directory: text/
-          extra_packages: biblatex-ieee
-      - name: Compile LaTeX document with minted
-        uses: ./
-        with:
-          root_file: write.tex
-          working_directory: text/
-          extra_system_packages: python3-pygments
-          args: "-pdf -latexoption=-shell-escape -latexoption=-file-line-error -latexoption=-interaction=nonstopmode"
-      - name: Check pdf files
-        run: |
-          set -e
-          file main.pdf | grep -q ' PDF '
-          
-
-
+          root_file: |
+              main.tex
+              text/ref.bib
+              text/write.tex
