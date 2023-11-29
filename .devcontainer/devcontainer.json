@@ -6,6 +6,26 @@
 
   "remoteUser": "codespace",
   "overrideCommand": false
+//add latex testes
+
+"latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk",
+      "tools": [
+        "latexmk"
+      ]
+    },
+    {
+      "name": "pdflatex -> bibtex -> pdflatex * 2",
+      "tools": [
+        "pdflatex",
+        "bibtex",
+        "pdflatex",
+        "pdflatex"
+      ]
+    }
+  ]
+
 
 
   ,
@@ -21,8 +41,7 @@
              "main.tex"
          ]
      }
-
-     
+    
  }
 
 }
