@@ -1,5 +1,5 @@
 #!/bin/bash
 #instalação do pacote latex
 
-
-sudo install latex-workshop
+sudo apt-get update
+sudo apt-get install latex-workshop
