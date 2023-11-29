@@ -7,7 +7,7 @@
   "remoteUser": "codespace",
   "overrideCommand": false
 //add latex testes
-
+,
 "latex-workshop.latex.recipes": [
     {
       "name": "latexmk",
