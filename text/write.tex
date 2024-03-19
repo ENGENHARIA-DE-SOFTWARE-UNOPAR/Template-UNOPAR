@@ -289,8 +289,9 @@ Aqui é um exemplo de rodapé. \footnote{Um exemplo de rodapé}
 
 
 
-\begin{figure}
+\begin{figure}[H]
     \centering
+    \caption{Gráfico com arquivo externo}
   \begin{tikzpicture}
     \begin{axis}[title = Título do gráfco, xlabel = {$x$}, ylabel = {$y$}, label = grafico]
       \addplot [red] table [x=a, y=c, col sep=comma] {cod/data.csv};
@@ -298,7 +299,9 @@ Aqui é um exemplo de rodapé. \footnote{Um exemplo de rodapé}
       \addlegendentry{{$x \exp(-x^2-y^2)$}}
     \end{axis}
   \end{tikzpicture}
-  \caption{Gráfico com arquivo externo, o autor}
+  %Deixar um espaço
+
+  \raggedright{\fontsize{10pt}{\baselineskip}\selectfont Fonte: O autor (\ano)}
 \end{figure}
 
 
