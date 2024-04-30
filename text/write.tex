@@ -18,7 +18,7 @@
 \end{minipage}
 
 
-\section{Desenvolvimento}
+\section{Métodos}
 
 \begin{algorithm}[H]
   \SetAlgoLined %APAGAR
@@ -40,14 +40,36 @@
    Fonte: O autor (2022)}
 
 \end{algorithm}
-\subsection{Método}
+\subsection{tabelas}
+
+\begin{table}[H]
+\center
+  \caption{Criação do banco de dados}
+  \begin{tabular}{ | c | c  | c | c |}
+      \hline
+      \textbf{Nome} & \textbf{Cliente VIP} & EMAIL & TELEFONE \\
+          & (1-SIM / 0-Não)  &  &    \\
+      \hline
+          João & 1 & joao@email.com & 9999-1111, 8888-1111 \\
+      \hline
+          Marcos & 0 &  & 9999-2222 \\
+      \hline
+          Maria & 1 &maria@email.com & 9999-3333, 8888-3333, 9988-3000 \\
+      \hline
+  \end{tabular}
+  \label{tab:banco}
+  \flushleft % Alinha a esquerda a referencia
+  %\raggedleft
+
+  {\fontsize{10pt}{\baselineskip}\selectfont
+    Fonte: \citeonline{alguem2022nada}}
+\end{table}
+
+
+\section{Resultados}
 \lipsum[2-2]
 
 
-\subsection{Resultados}
-\lipsum[2-2]
-
-\section{Conclusões}
 
 \subsection{Qr CODE}
 \par Exemplo de acição de QRcode.
@@ -63,9 +85,11 @@ QrCode com 5cm:
 \quad
 \qrcode {https://dicionario.priberam.org/}
 
-\section{Código externo no main.c}
-
+\subsection{Código externo no main.c}
 \lstinputlisting[language=c, caption={código externo}, label={cod:externo}]{main.c} %Busca os codigos na pasta /cod
+
+
+
 
 \subsection{Banco de dados} \label{Banco de dados}
 
@@ -104,7 +128,7 @@ $\underline{{\color{Blue} }}{\color{red} \, \: \: \left ( \iint_{\widetilde{ \th
     \raggedright{\fontsize{10pt}{\baselineskip}\selectfont Fonte: O autor (\ano)}
 \end{algorithm}
 
-\section{Resultados e discussões}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \par Aqui vai um exemplo de código em \LaTeX2e.
@@ -136,7 +160,7 @@ $\underline{{\color{Blue} }}{\color{red} \, \: \: \left ( \iint_{\widetilde{ \th
   \raggedright{\fontsize{10pt}{\baselineskip}\selectfont Fonte: O autor (\ano)}
 \end{algorithm}
 
-\section{Sub Figuras}
+\subsection{Sub Figuras}
 
 \begin{figure}[H] %Figuras da aula pratica 1.1
   \center
@@ -152,7 +176,7 @@ $\underline{{\color{Blue} }}{\color{red} \, \: \: \left ( \iint_{\widetilde{ \th
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Seção que será apagada}
+\subsection{Seção que será apagada}
 
 Para referenciar utilize \cite{ninguem2022curioso}. Também pode ser citado integrada ao texto, de acordo com \citeonline{alguem2022nada}.
 
@@ -207,7 +231,7 @@ Aqui é um exemplo de rodapé. \footnote{Um exemplo de rodapé}
 \end{equation}
 
 
-\section{Sub itens}
+\subsection{Sub itens}
 
 \begin{enumerate}[label=\Roman{*}, ref=(\roman{*})]
   \item fsfsdf
@@ -219,7 +243,7 @@ Aqui é um exemplo de rodapé. \footnote{Um exemplo de rodapé}
 \item Próximo ... \label{pl1}
 \end{asparaenum}
 
-\section{Plotação de gráficos}
+\subsection{Plotação de gráficos}
 
 \begin{tikzpicture}
 
