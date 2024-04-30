@@ -25,3 +25,5 @@
 *.lot
 *.gnuplot
 *.gz
+*.fls
+*.fdb_latexmk

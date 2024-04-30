@@ -7,10 +7,12 @@
 *.cmd text eol=lf
 *.md            text diff=markdown
 .gitattributes  export-ignore
-.gitignore      export-ignore
+
 .git            export-ignore
 .cff            export-ignore
 LICENSE         export-ignore
+.fls            export-ignore
+
 #
 # Enable syntax highlighting for files with `.gitattributes` extensions.
 #
