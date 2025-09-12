@@ -1,43 +1,96 @@
-<h1>Template para relatórios de portfólio da UNOPAR </h1>
-
+# Template LaTeX para Relatórios da UNOPAR - Engenharia de Software
 
 [![Versão](https://img.shields.io/badge/Versão-1.2-brightgreen.svg)](https://github.com/OgliariNatan/Template-UNOPAR)
-[![Aton](https://img.shields.io/badge/-Aton-green)](https://atom.io/)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/OgliariNatan/Template-UNOPAR/blob/main/LICENSE)
 <img src="https://img.shields.io/github/languages/code-size/OgliariNatan/Template-UNOPAR?color=violet&style=plastic" />
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/OgliariNatan/Template-UNOPAR/blob/main/LICENSE) <br>
-[![Downloads](https://img.shields.io/badge/download-Relatório%20portfólio-brightgreen.svg)](https://github.com/OgliariNatan/Template-UNOPAR/archive/refs/tags/v1.1.zip)
-<img src="https://img.shields.io/github/languages/top/OgliariNatan/Template-UNOPAR?color=violet&label=TeX&style=plastic" /> <img src="https://img.shields.io/badge/Feito%20com-LaTeX-1f425f.svg"/>
+<img src="https://img.shields.io/github/languages/top/OgliariNatan/Template-UNOPAR?color=violet&label=TeX&style=plastic" />
+<img src="https://img.shields.io/badge/Feito%20com-LaTeX-1f425f.svg"/>
 
+## Descrição
 
+Este repositório contém um template LaTeX para a criação de relatórios acadêmicos no curso de Engenharia de Software da Universidade Pitágoras Unopar (UNOPAR). O template facilita a formatação de trabalhos acadêmicos, incluindo elementos pré-textuais (capa, contra-capa, sumário, listas de figuras, tabelas e algoritmos), corpo do texto e referências bibliográficas.
 
-<h2> Classe LaTeX da UNOPAR </h2>
+O template é baseado em LaTeX e inclui exemplos de seções, algoritmos, tabelas, figuras, QR codes, gráficos com TikZ e integração com códigos externos.
 
-Este repositório contém a classe **LaTeX** da UNOPAR para formatação de trabalhos acadêmicos. A classe possibilita a criação de um trabalho acadêmico completo, com inserção de elementos pré-textuais (capa, folha de rosto, ficha catalográfica, sumário e listas de figuras, tabelas, algoritmos, siglas e símbolos), passando pelo corpo do texto e elementos pós-textuais (referências bibliográficas).
+## Estrutura do Projeto
 
-No manual, os usuários encontrarão informações detalhadas sobre a utilização da classe, seus comandos e algumas boas práticas para que o trabalho fique no formato desejado.
+- `main.tex`: Arquivo principal do documento LaTeX.
+- `structure/report.tex`: Estrutura e comandos para elementos pré-textuais.
+- `text/write.tex`: Conteúdo principal do relatório (introdução, métodos, resultados, conclusões).
+- `text/ref.bib`: Arquivo de referências bibliográficas em formato BibTeX.
+- `your_data.tex`: Dados pessoais e informações do relatório (nome, título, etc.).
+- `cod/`: Pasta para códigos fonte (ex.: `main.c`).
+- `figure/`: Pasta para imagens e figuras.
+- `make.sh`: Script para compilar o documento.
 
+## Pré-requisitos
 
+- Distribuição LaTeX instalada (ex.: TeX Live, MiKTeX).
+- BibTeX para processamento de referências.
+- Editor de texto compatível com LaTeX (ex.: VS Code com extensão LaTeX, Overleaf, TeXstudio).
 
+## Como Usar
 
-<h3> Utilização </h3> <p>
-Recomenda-se o uso do software <a href="https://atom.io/">Aton</a>, os documentos disponibilizados foram testados e estão prontos para a compilação. <br>
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/OgliariNatan/Template-UNOPAR.git
+   cd Template-UNOPAR
+   ```
 
-* Para início compile o ```main.tex```, e posterior poderá compilar diretamente o ```write.tex```.
-* Caso não deseje ```\contracapa; \listalgoritmo;
-\listafiguras;
-\listatabelas ```, comente a linha em específico com o ```%```.
+2. **Personalize os dados:**
+   - Edite o arquivo `your_data.tex` com suas informações pessoais, título do relatório, etc.
 
-</p>
-<h3> Novas versões </h3><p>
-Para receber anúncios de novas versões da classe, utilize a função "Watch" do GitHub no repositório.
-</p>
-<h4> Ajuda e Comunidade </h4><p>
+3. **Edite o conteúdo:**
+   - Modifique `text/write.tex` para adicionar seu texto, algoritmos, tabelas, figuras, etc.
+   - Adicione referências em `text/ref.bib`.
+   - Inclua códigos em `cod/` e referencie-os no texto.
+   - Adicione imagens em `figure/`.
 
-* A <a href="https://github.com/OgliariNatan/Template-UNOPAR/wiki">wiki</a> no GitHub aborda dúvidas relacionadas a instalação do ```LaTeX```, fontes didáticas para aprender a linguagem ```LaTeX``` e dicas de editores de TeX e ferramentas para facilitar a compilação de projetos grandes. </br>
-* <a href="https://github.com/OgliariNatan/Template-UNOPAR/archive/refs/tags/v1.1.zip">Clique aqui para o download</a>
+4. **Compile o documento:**
+   - Execute o script `make.sh`:
+     ```bash
+     ./make.sh
+     ```
+     Ou manualmente:
+     ```bash
+     pdflatex main.tex
+     bibtex main.aux
+     pdflatex main.tex
+     pdflatex main.tex
+     ```
 
-</p>
-<h5> Softwares usuais: </h5><p>
-<a href="https://cocalc.com/software">Cocal</a> <br/>
-<a href="https://atom.io/">Atom</a> <br/>
-</p>
+5. **Visualize o PDF:**
+   - O arquivo `main.pdf` será gerado na raiz do projeto.
+
+## Exemplos Incluídos
+
+- Algoritmos com pseudocódigo.
+- Tabelas e figuras.
+- QR codes.
+- Gráficos com TikZ (2D e 3D).
+- Integração com códigos C externos.
+- Referências bibliográficas.
+
+## Contribuição
+
+Contribuições são bem-vindas! Para contribuir:
+
+1. Fork o repositório.
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`).
+3. Commit suas mudanças (`git commit -am 'Adiciona nova feature'`).
+4. Push para a branch (`git push origin feature/nova-feature`).
+5. Abra um Pull Request.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+## Suporte
+
+- Para dúvidas sobre LaTeX, consulte a [wiki do repositório](https://github.com/OgliariNatan/Template-UNOPAR/wiki).
+- Editores recomendados: [VS Code](https://code.visualstudio.com/) com extensão LaTeX, [Overleaf](https://www.overleaf.com/), [TeXstudio](https://www.texstudio.org/).
+
+---
+
+**Autor:** OgliariNatan  
+**Última atualização:** 12 de setembro de 2025
